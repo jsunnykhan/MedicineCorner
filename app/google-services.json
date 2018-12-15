@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "783534860566",
+    "firebase_url": "https://medicinelife-bdf33.firebaseio.com",
+    "project_id": "medicinelife-bdf33",
+    "storage_bucket": "medicinelife-bdf33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783534860566:android:96a12b4ac5cb2ea5",
+        "android_client_info": {
+          "package_name": "com.example.asus.medicinelife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783534860566-ur522u018rs26ofhv5k2mm0qbr7dc0ro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.medicinelife",
+            "certificate_hash": "079979ca7caa7832d6ecfc808c013ea7c77c1332"
+          }
+        },
+        {
+          "client_id": "783534860566-fmvc43num3g1on6fnl7l9kd19jp6h3ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_DwSPHujx1wGlU-LO1aPIpkUFwCX6vVE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783534860566-fmvc43num3g1on6fnl7l9kd19jp6h3ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

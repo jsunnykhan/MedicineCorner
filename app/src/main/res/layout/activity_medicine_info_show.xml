@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MedicineInfoShowActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:id="@+id/medNameTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Drugs Name    :"
+        android:textSize="18dp"
+        android:layout_marginBottom="3dp"/>
+
+<TextView
+        android:id="@+id/medCompanyTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Manufecturer  :"
+        android:textSize="18dp"
+        android:layout_marginBottom="3dp"/>
+
+<TextView
+        android:id="@+id/medFormTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Drugs Form     : "
+        android:textSize="18dp"
+        android:layout_marginBottom="3dp"/>
+
+<TextView
+        android:id="@+id/medQuantityTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Quantity           :"
+        android:textSize="18dp"
+        android:layout_marginBottom="3dp"/>
+
+<TextView
+        android:id="@+id/medPriceTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Price                 :"
+        android:textSize="18dp"
+        android:layout_marginBottom="3dp"/>
+
+
+
+
+    <Button
+        android:id="@+id/cardButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_button_drawable_design"
+        android:gravity="center"
+        android:layout_gravity="end"
+        android:layout_marginTop="40dp"/>
+
+
+
+</LinearLayout>

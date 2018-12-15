@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".signInactivity">
+
+    <EditText
+        android:id="@+id/emailEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:hint="Enter your Email"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/passEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="Enter your Password"
+        android:textSize="16sp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/signInBt"
+        android:layout_marginTop="50dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textColor="@color/darkWhite"
+        android:background="@drawable/button_background_design"/>
+
+    <TextView
+        android:id="@+id/createAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a new account"
+        android:textSize="16dp"
+        android:fontFamily="@font/roboto"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="#2b2121"/>
+
+</LinearLayout>
